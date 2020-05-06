@@ -11,7 +11,7 @@ class LandingPage extends React.Component {
 		super(props);
 
 		this.state = {
-			currentPage: "hobbies"
+			currentPage: "home"
 		}
 
 		this.updateState = this.updateState.bind(this);

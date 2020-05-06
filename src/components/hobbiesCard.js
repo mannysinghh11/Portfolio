@@ -37,18 +37,18 @@ class HobbiesCard extends React.Component {
             <p id = "hobbiesInfo">{this.state.hobbieInfo}</p>
         	<div id = "hobbiesCardContainer">
                 <div id = "hobbiesIconContainer" onClick={() => this.updateDescription("games")}>
-        		  <FontAwesomeIcon id = "hobbiesCardIcon" icon = {faGamepad} size = '10x'/>
+        		  <FontAwesomeIcon id = "hobbiesCardIcon" icon = {faGamepad} size = '8x'/>
                   <p>Video games</p>
                   <p>{this.state.gameDescription}</p>
                 </div>
 
                 <div id = "hobbiesIconContainer" onClick={() => this.updateDescription("music")}>
-                  <FontAwesomeIcon id = "hobbiesCardIcon" icon = {faMusic} size = '10x' />
+                  <FontAwesomeIcon id = "hobbiesCardIcon" icon = {faMusic} size = '8x' />
                   <p>Music Production</p>
                 </div>
 
                 <div id = "hobbiesIconContainer" onClick={() => this.updateDescription("photography")}>
-                  <FontAwesomeIcon id = "hobbiesCardIcon" icon = {faCamera} size = '10x' />
+                  <FontAwesomeIcon id = "hobbiesCardIcon" icon = {faCamera} size = '8x' />
                   <p>Photography</p>
                 </div>
         	</div>

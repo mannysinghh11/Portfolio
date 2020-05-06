@@ -1,0 +1,73 @@
+#projectsContainer{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+#totalProjects{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 2%;
+	color: #D7D6D6;
+	font-family: sans-serif;
+}
+
+#totalProjectsText{
+	font-size: 22px;
+}
+
+#infoText{
+	font-size: 18px;
+	margin-top: -0.5%;
+}
+
+#tableContainer{
+	display: flex;
+	justify-content: center;
+	padding-top: 2%;
+}
+
+#mainTable{
+	font-family: sans-serif;
+	border-collapse: collapse;
+	width: 70%;
+	color: #D7D6D6;
+	font-size: 20px;
+}
+
+#githubLink{
+	color: #D7D6D6;
+}
+
+td, th{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	padding: 1%;
+	text-align: left;
+}
+
+th:nth-child(1){
+	border-top-left-radius: 15px;
+}
+
+th:nth-child(3){
+	border-top-right-radius: 15px;
+}
+
+th{
+  	background-color: rgba(0, 0, 0, 0.09);
+}
+
+tr:hover{
+	box-shadow: 0 4px 8px 0 rgba(190, 178, 200, 0.4), 0 5px 15px 0 rgba(190, 178, 200, 0.3);
+}
+
+thead{
+	background-color: rgba(215, 214, 214, 0.7);
+	color: #36413E;
+}
+
+tbody{
+	background-color: rgba(0, 0, 0, 0.04);
+}

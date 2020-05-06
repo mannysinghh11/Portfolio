@@ -1,0 +1,11 @@
+#listContainer{
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+	margin-left: 8%;
+	margin-right: 10%;
+}
+
+#descriptionText{
+	padding-top: 1%;
+}

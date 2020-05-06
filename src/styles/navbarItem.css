@@ -1,0 +1,23 @@
+#navbarItemContainer{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#textHolder{
+	display: flex;
+	flex: 1;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#mainText{
+	font-family: sans-serif;
+	color: #D7D6D6;
+	font-size: 25px;
+}
+
+#textHolder:hover{
+	color: #BEB2C8;
+	text-decoration: underline;
+	cursor: pointer;
+}

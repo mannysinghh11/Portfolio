@@ -1,0 +1,13 @@
+#socialBarContainer{
+	display: flex;
+}
+
+#socialIcon{
+	padding-left: 15px;
+	color: #D7D6D6;
+}
+
+#socialIcon:hover{
+	color: #BEB2C8;
+	cursor: pointer;
+}

@@ -35,7 +35,7 @@ class HobbiesCard extends React.Component {
             examplesDescription = "Below are a few examples of the beats I have created."
         }else if(item == "Photography"){
             description = "Photography is one of my newest hobbies, and I am glad to have found it. I enjoy being creative, and photography is a great method of letting that creativity flow. It is fun looking at life through a new lens. After getting into photography, I continue to notice new angles to appreciate the beauty around me. Although I am fairly new, I enjoy messing around with different angles, aperatures, and shutter speeds. I would love to start taking some more low light shots and slow shutter speed shots, as the end product of both look amazing in my opinion."
-            examplesDescription = "Below a few examples of the photos I have taken."
+            examplesDescription = "Below are a few examples of the photos I have taken."
         }
 
         if(item == "reset"){

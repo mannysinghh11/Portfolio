@@ -37,6 +37,12 @@ module.exports = {
         test:/\.(png|jpe?g|gif)$/i,
         // use the file for transpiling the file to a suitable format
         loader: 'file-loader'
+      },
+      {
+        // for any file with a suffix of .wav
+        test: /\.wav$/,
+        // use the file for transpiling the file to a suitable format
+        loader: 'file-loader'
       }
     ],
   },

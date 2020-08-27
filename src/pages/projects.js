@@ -64,8 +64,7 @@ class Projects extends React.Component {
 
             <div id = "projectsContainer">
                 <div id = "totalProjects">
-                    <p id = "totalProjectsText">Total Projects: {this.state.numberOfRepos}</p>
-                    <p id = "infoText">All of this information gets pulled directly from Github via the API</p>
+                    <p id = "totalProjectsText">Repo Counter: {this.state.numberOfRepos}</p>
                 </div>
 
                 <div id = "tableContainer">

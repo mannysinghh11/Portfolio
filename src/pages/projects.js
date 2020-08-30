@@ -2,6 +2,7 @@ import React from 'react';
 
 import '../styles/projects.css'
 import Navbar from '../components/navbar.js'
+import ProjectCard from '../components/projectCard.js'
 
 class Projects extends React.Component {
 	constructor(props){
@@ -20,7 +21,7 @@ class Projects extends React.Component {
             .then(res => res.json())
             .then(
                 (result) =>{
-                    //console.log(result);
+                    console.log(result);
 
                     this.setState({
                         numberOfRepos: result.length
@@ -45,11 +46,7 @@ class Projects extends React.Component {
         return(
             this.state.repoInformation.map((data, i) => {
                 return(
-                    <tr key = {i}>
-                        <td>{data.name}</td>
-                        <td>{data.description}</td>
-                        <td><a href= {data.githubLink} target="_blank" id="githubLink">{data.githubLink}</a></td>
-                    </tr>
+                    <ProjectCard key = {i} name = {data.name} description = {data.description} github = {data.githubLink} link = {data.liveLink}/>
                 );
             })
         );
@@ -59,26 +56,11 @@ class Projects extends React.Component {
     return( 
     	<div id = "experienceContainer">
     		<div id = "navbarContainer">
-    			<Navbar updateState = {this.props.updateState}/>
+    			<Navbar updateState = {this.props.updateState} active = "Projects"/>
     		</div>
 
             <div id = "projectsContainer">
-                <div id = "totalProjects">
-                    <p id = "totalProjectsText">Repo Counter: {this.state.numberOfRepos}</p>
-                </div>
-
-                <div id = "tableContainer">
-                    <table id="mainTable">
-                        <thead>
-                            <th>Name</th>
-                            <th>Description</th>
-                            <th>Github link</th>
-                        </thead>
-                        <tbody>
-                            {this.renderTable()}
-                        </tbody>
-                    </table>
-                </div>
+                {this.renderTable()}
             </div>
     	</div>
     );

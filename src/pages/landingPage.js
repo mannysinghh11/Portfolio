@@ -18,7 +18,7 @@ class LandingPage extends React.Component {
 	}
 
 	updateState(newState){
-		console.log(newState);
+		//console.log(newState);
 		
 		this.setState({
 			currentPage: newState

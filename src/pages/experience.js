@@ -19,7 +19,7 @@ class Experience extends React.Component {
         return(
             experienceData.map((data, i) => {
                 return(
-                    <ExperienceCard companyTitle={data.companyTitle} workTitle={data.workTitle} timeFrame={data.timeFrame} 
+                    <ExperienceCard key = {i} companyTitle={data.companyTitle} workTitle={data.workTitle} timeFrame={data.timeFrame} 
                     description={data.description} imageSource={data.imageSource}/>
                 );
             })
@@ -30,7 +30,7 @@ class Experience extends React.Component {
     return( 
     	<div id = "experienceContainer">
     		<div id = "navbarContainer">
-    			<Navbar updateState = {this.props.updateState}/>
+    			<Navbar updateState = {this.props.updateState} active = "Experience"/>
     		</div>
 
     		<div id ="mainContent">

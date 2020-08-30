@@ -8,8 +8,8 @@ class List extends React.Component {
 
   render() {
     const descriptions = this.props.description;
-    const listDescription = descriptions.map((description) =>
-        <li id = "descriptionText">{description}</li>
+    const listDescription = descriptions.map((description, i) =>
+        <li id = "descriptionText" key = {i}>{description}</li>
     );
 
     return( 

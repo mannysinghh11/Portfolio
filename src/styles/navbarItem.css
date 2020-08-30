@@ -21,3 +21,10 @@
 	text-decoration: underline;
 	cursor: pointer;
 }
+
+.active{
+	font-family: sans-serif;
+	font-size: 25px;
+	color: #BEB2C8;
+	text-decoration: underline;
+}

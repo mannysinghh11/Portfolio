@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/hobbiesCard.css'
+import ReactTooltip from 'react-tooltip';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGamepad, faMusic, faCamera, faArrowCircleLeft } from '@fortawesome/free-solid-svg-icons'
 import HobbyExample from '../components/hobbyExample.js'
@@ -61,20 +62,21 @@ class HobbiesCard extends React.Component {
     renderAllHobbies(){
         return( 
             <div>
+                <ReactTooltip id = "hobbyInformation" effect = "solid" className = "tooltip">Click to view more details</ReactTooltip>
                 <p id = "hobbiesInfo">{this.state.hobbieInfo}</p>
                 <div id = "hobbiesCardContainer">
-                    <div id = "hobbiesIconContainer" onClick={() => this.updateDescription("Video Games")}>
+                    <div id = "hobbiesIconContainer" data-tip data-for="hobbyInformation" onClick={() => this.updateDescription("Video Games")}>
                       <FontAwesomeIcon id = "hobbiesCardIcon" icon = {faGamepad} size = '4x'/>
                       <p>Video games</p>
                       <p>{this.state.gameDescription}</p>
                     </div>
 
-                    <div id = "hobbiesIconContainer" onClick={() => this.updateDescription("Music Production")}>
+                    <div id = "hobbiesIconContainer" data-tip data-for="hobbyInformation" onClick={() => this.updateDescription("Music Production")}>
                       <FontAwesomeIcon id = "hobbiesCardIcon" icon = {faMusic} size = '4x' />
                       <p>Music Production</p>
                     </div>
 
-                    <div id = "hobbiesIconContainer" onClick={() => this.updateDescription("Photography")}>
+                    <div id = "hobbiesIconContainer" data-tip data-for="hobbyInformation" onClick={() => this.updateDescription("Photography")}>
                       <FontAwesomeIcon id = "hobbiesCardIcon" icon = {faCamera} size = '4x' />
                       <p>Photography</p>
                     </div>

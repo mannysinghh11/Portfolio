@@ -39,7 +39,7 @@ class Home extends React.Component {
     return( 
     	<div id = "homeContainer">
     		<div id = "navbarContainer">
-    			<Navbar updateState = {this.props.updateState}/>
+    			<Navbar updateState = {this.props.updateState} active = "Home"/>
     		</div>
 
     		<div id = "homeMainContent">

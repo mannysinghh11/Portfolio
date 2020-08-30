@@ -7,10 +7,10 @@ class Navbar extends React.Component {
   render() {
     return( 
     	<div id = "navBarContainer">
-    		<NavbarItem name = "Home" stateChangesTo = "home" icon="home" updateState={this.props.updateState}/>
-    		<NavbarItem name = "Experience" stateChangesTo = "experience" updateState={this.props.updateState}/>
-    		<NavbarItem name = "Projects" stateChangesTo = "projects" updateState={this.props.updateState}/>
-    		<NavbarItem name = "Hobbies" stateChangesTo = "hobbies" updateState={this.props.updateState}/>
+    		<NavbarItem name = "Home" stateChangesTo = "home" icon="home" active = {this.props.active} updateState={this.props.updateState}/>
+    		<NavbarItem name = "Experience" stateChangesTo = "experience" active = {this.props.active} updateState={this.props.updateState}/>
+    		<NavbarItem name = "Projects" stateChangesTo = "projects" active = {this.props.active} updateState={this.props.updateState}/>
+    		<NavbarItem name = "Hobbies" stateChangesTo = "hobbies" active = {this.props.active} updateState={this.props.updateState}/>
     	</div>
     );
   }

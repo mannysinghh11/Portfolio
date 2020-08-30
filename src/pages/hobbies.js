@@ -14,7 +14,7 @@ class Hobbies extends React.Component {
     return( 
     	<div id = "hobbiesContainer">
     		<div id = "navbarContainer">
-    			<Navbar updateState = {this.props.updateState}/>
+    			<Navbar updateState = {this.props.updateState} active = "Hobbies"/>
     		</div>
 
             <HobbiesCard />

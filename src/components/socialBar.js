@@ -18,7 +18,7 @@ class SocialBar extends React.Component {
     }else if(icon == "github"){
       window.open('https://github.com/mannysinghh11', '_blank');
     }else if(icon == "pdf"){
-      window.open('https://github.com/mannysinghh11/Portfolio/raw/master/src/additionalFiles/ManpreetSingh_Resume.docx', '_blank');
+      window.open('https://github.com/mannysinghh11/Portfolio/raw/master/src/additionalFiles/ManpreetSingh_Resume.pdf', '_blank');
     }
   }
 

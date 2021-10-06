@@ -27,7 +27,7 @@ class SocialBar extends React.Component {
     	<div id = "socialBarContainer">
     		<FontAwesomeIcon id = "socialIcon" icon = {faLinkedin} size = '2x' onClick={() => this.iconClicked('linkedin')}/>
     		<FontAwesomeIcon id = "socialIcon"  icon = {faGithub} size = '2x' onClick={() => this.iconClicked('github')}/>
-        <FontAwesomeIcon id = "socialIcon"  icon = {faFilePdf} size = '2x' onClick={() => this.iconClicked('pdf')}/>
+		<FontAwesomeIcon id = "socialIcon"  icon = {faFilePdf} size = '2x' onClick={() => this.iconClicked('pdf')}/>
     	</div>
     );
   }

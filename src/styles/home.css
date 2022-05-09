@@ -1,0 +1,40 @@
+#homeContainer{
+	background: #36413E;
+	display: flex;
+	flex-direction: column;
+}
+
+#navbarContainer{
+	width: 100%;
+	flex: 1;
+	background: red;
+}
+
+#homeMainContent{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin-top: 100px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+#profilePicture{
+	width: 400px;
+	height: 400px;
+	border-radius: 999px;
+}
+
+#profilePictureName{
+	color: #D7D6D6;
+	font-family: sans-serif;
+	font-size: 50px;
+}
+
+#profileDescription{
+	margin-top: -30px;
+	color: #D7D6D6;
+	font-family: sans-serif;
+	font-size: 35px;
+}

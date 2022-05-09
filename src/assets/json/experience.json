@@ -1,0 +1,63 @@
+[
+    {
+        "type": "Experience",
+        "location": "Genista Biosciences",
+        "cityState": "San Jose, CA",
+        "dateStart": "February 2022",
+        "dateEnd": null,
+        "description": [
+            "Spearheaded the development and testing of the mobile app created with React Native.",
+            "Worked with UI/UX designers to create a user-friendly experience.",
+            "Thoroughly documented all processes and dependencies to ensure maintainability and utilized best practices to create a scalable application.",
+            "Tested the mobile application features thoroughly and wrote corresponding test cases to ensure a quality product.",
+            "Maintained previous ReactJS code base, and developed new features using modern standards."
+        ],
+        "imageURL": "https://www.genistabio.com/wp-content/themes/genista/images/icon-gb.png?v=2",
+        "positionTitle": "Software Engineer"
+    },
+    {
+        "type": "Experience",
+        "location": "Gilead Sciences",
+        "cityState": "Foster City, CA",
+        "dateStart": "June 2019",
+        "dateEnd": "August 2019",
+        "description": [
+            "Facilitated the creation of a continuous compliance system by coordinating meetings with service owners, key stakeholders, and peers through the entire SDLC.",
+            "Automated manual compliance server checks to improve efficiency by 50%",
+            "Communicated with multiple offshore teams to ensure requirements materialize properly in the application.",
+            "Designed a dashboard to showcase all the necessary server information to the end-users using vROps."
+        ],
+        "imageURL": "https://www.alphaspread.com/image/stock/nasdaq/gild.png",
+        "positionTitle": "Technical Project Manager"
+    },
+    {
+        "type": "Experience",
+        "location": "Ambii",
+        "cityState": "San Jose, CA",
+        "dateStart": "August 2018",
+        "dateEnd": "December 2018",
+        "description": [
+            "Developed the world’s first AI-driven digital jukebox built for group listening.",
+            "MERN development to build real-time web & mobile apps for music streaming.",
+            "Integrated Spotify’s playback functionality on top of the existing YouTube playback functionality to improve user interaction by 85%.",
+            "Improved performance of the application by applying the knowledge of object-oriented design and data structures."
+        ],
+        "imageURL": "https://www.ambii.io/wp-content/uploads/2020/05/Resized-Ambii-Logo-1024x1024.png",
+        "positionTitle": "Application Developer"
+    },
+    {
+        "type": "Experience",
+        "location": "Gilead Sciences",
+        "cityState": "Foster City, CA",
+        "dateStart": "June 2018",
+        "dateEnd": "August 2018",
+        "description": [
+            "Gathered user requirements, analyzed, and designed the web page that demonstrated a variety of graphs accessed by tens of thousands of users globally.",
+            "Created and designed a scalable and dynamic web application for subjective data collection through a series of carefully crafted questions.",
+            "Ensured reusability of the application by allowing the questions to be updated dynamically and allowing multiple instances of the application to be run simultaneously via database design.",
+            "Full-stack application development on the .NET framework utilizing HTML, CSS, JavaScript, jQuery, Bootstrap, KendoUI, SQL, and C#."
+        ],
+        "imageURL": "https://www.alphaspread.com/image/stock/nasdaq/gild.png",
+        "positionTitle": "Software Engineer"
+    }
+]

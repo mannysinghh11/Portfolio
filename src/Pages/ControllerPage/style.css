@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navbarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.mainContent {
+    display: flex;
+    flex: 1;
+}

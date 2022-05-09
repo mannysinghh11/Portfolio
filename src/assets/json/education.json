@@ -1,0 +1,13 @@
+[
+    {
+        "type": "Education",
+        "location": "San Jose State University",
+        "cityState": "San Jose, CA",
+        "dateStart": null,
+        "dateEnd": "2019",
+        "description": [
+            "BS. Software Engineering"
+        ],
+        "imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/San_Jose_State_Spartans_logo.svg/1024px-San_Jose_State_Spartans_logo.svg.png"
+    }
+]

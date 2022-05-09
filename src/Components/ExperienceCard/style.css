@@ -1,0 +1,24 @@
+.experienceCardContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: #2C394B;
+    padding: 2em;
+    gap: 2em;
+    border-radius: 1em;
+    box-shadow: 2px 5px 12px -3px rgba(0,0,0,0.57);
+}
+
+.imageContainer {
+    align-self: center;
+}
+
+.experienceImage {
+    max-height: 5em;
+}
+
+.informationContainer {
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+}

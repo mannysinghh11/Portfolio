@@ -1,6 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import LandingPage from './pages/landingPage.js'
-import './styles/index.css'
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(<LandingPage />, document.getElementById('root'));
+import './index.css';
+
+import CustomRoutes from './Pages/CustomRoutes/CustomRoutes';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <BrowserRouter>
+    <CustomRoutes />
+  </BrowserRouter>
+);

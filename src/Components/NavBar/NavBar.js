@@ -1,6 +1,6 @@
 import React from "react";
 
-import './style.css';
+import './NavBarStyle.css';
 
 import { pages } from "../../utils/Constant";
 import NavBarDot from "../NavBarDot/NavBarDot";

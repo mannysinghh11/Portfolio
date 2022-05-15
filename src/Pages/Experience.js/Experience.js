@@ -2,7 +2,7 @@ import React from "react";
 
 import ExperienceCard from "../../Components/ExperienceCard/ExperienceCard";
 
-import "./style.css";
+import "./ExperienceStyle.css";
 import experienceInformation from "../../assets/json/experience.json";
 import educationInformation from "../../assets/json/education.json";
 

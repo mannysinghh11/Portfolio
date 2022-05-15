@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import "./style.css";
+import "./ProjectCardStyle.css";
 
 function handleClick(url) {
     window.open(url, "_blank");

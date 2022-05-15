@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import ProjectCard from "../../Components/ProjectCard/ProjectCard";
 
-import "./style.css";
+import "./ProjectStyle.css";
 
 function Projects() {
     const [projectData, setProjectData] = useState();

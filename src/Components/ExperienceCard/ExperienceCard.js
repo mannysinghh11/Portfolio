@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import "./style.css";
+import "./ExperienceCardStyle.css";
 
 function ExperienceCard(props) {
     const { cityState, dateEnd, dateStart, description, image, location, type, positionTitle } = props;

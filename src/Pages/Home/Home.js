@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithubSquare, FaFilePdf } from "react-icons/fa";
 
-import './style.css'
+import './HomeStyle.css'
 
 const profilePicture = require("../../assets/manny_picture.jpg");
 

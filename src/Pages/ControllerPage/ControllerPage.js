@@ -10,7 +10,7 @@ import Projects from "../Projects/Projects";
 import { getDirection, getNextPage, getPrevPage } from "../../utils/Helper.js";
 import { pages } from '../../utils/Constant.js';
 
-import "./style.css";
+import "./ControllerPageStyle.css";
 import { createBrowserHistory } from "history";
 
 async function handleScroll(e, navigate, currentPage, setScrollDirection, history) {

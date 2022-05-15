@@ -6,6 +6,10 @@ import "./style.css";
 import experienceInformation from "../../assets/json/experience.json";
 import educationInformation from "../../assets/json/education.json";
 
+function handleWorkExperienceClicked() {
+    console.log("experience");
+}
+
 function Experience() {
     return (
         <div className="mainContentContainer">

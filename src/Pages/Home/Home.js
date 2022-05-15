@@ -1,18 +1,16 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faFilePdf } from '@fortawesome/free-solid-svg-icons'
+import { FaLinkedin, FaGithubSquare, FaFilePdf } from "react-icons/fa";
 
 import './style.css'
 
 const profilePicture = require("../../assets/manny_picture.jpg");
 
 const iconsArr = [
-    { name: "linkedin", icon: faLinkedin, size: '4x' },
-    { name: "github", icon: faGithub, size: '4x' },
-    { name: "resume", icon: faFilePdf, size: '4x' },
+    { name: "linkedin", icon: FaLinkedin },
+    { name: "github", icon: FaGithubSquare },
+    { name: "resume", icon: FaFilePdf },
 ];
 
 function handleIconClick(e, icon, setLinksShown) {
@@ -42,8 +40,8 @@ function Home() {
                 >
                     {iconsArr.map((item, index) => {
                         return (
-                            <motion.div onClick={(e) => handleIconClick(e, item.name)} className="socialIconContainer" key={index}>
-                                <FontAwesomeIcon className="socialIcon" icon={item.icon} size='4x' />
+                            <motion.div onClick={(e) => handleIconClick(e, item.name)} className="socialIconContainer" key={index} whileHover={{scale: 1.1}}>
+                                <item.icon className="socialIcon" />
                             </motion.div>
                         )
                     })}
@@ -56,7 +54,7 @@ function Home() {
             )}
             <p className="mainText">Manpreet Singh</p>
 
-            <p className="subText">Software Engineer.</p>
+            <p className="subText">Software Engineer, Gamer, Producer.</p>
         </motion.div>
     )
 }

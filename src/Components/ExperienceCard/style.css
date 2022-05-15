@@ -22,3 +22,8 @@
     align-self: center;
     text-align: center;
 }
+
+.titleText {
+    font-size: 1.2em;
+    font-weight: bold;
+}

@@ -11,7 +11,7 @@ function CustomRoutes() {
             <Route path="/Projects" element={<ControllerPage page="Projects"/>} />
 
             <Route
-                path="/"
+                path="/*"
                 element={<Navigate to="/Home" replace />}
             />
         </Routes>

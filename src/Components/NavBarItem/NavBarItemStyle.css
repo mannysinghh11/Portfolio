@@ -1,0 +1,9 @@
+.navBarItemText {
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+}
+
+.navBarItemText:hover {
+    color: #FF4C29;
+}

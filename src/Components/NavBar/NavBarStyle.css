@@ -1,6 +1,26 @@
 .navBarContainer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1em;
+    align-items: center;
+    gap: 4em;
+    margin: 0em 10em;
+    padding: 1.5em 0em;
+}
+
+.navBarTitleText {
+    font-size: 1.3em;
+    text-align: left;
+    font-weight: 500;    
+    color: white;
+    text-decoration: none;
+}
+
+.navBarTitleText:hover {
+    color: #FF4C29;
+}
+
+.navBarItemContainer {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 4em;
 }

@@ -1,0 +1,14 @@
+.socialBarContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.socialBarIcon {
+    font-size: 3em;
+}
+
+.socialBarIcon:hover {
+    cursor: pointer;
+    color: #FF4C29;
+}

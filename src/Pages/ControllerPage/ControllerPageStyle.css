@@ -1,17 +1,20 @@
-.container {
+.paddingContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0em 20em;
+    gap: 10em;
+}
+
+.navigationContainer{
+    margin: 0;
+    top: 0;
+    position: sticky;
+    background-color: #334756;
+    box-shadow: 2px 3px 10px -3px rgba(0,0,0,0.57);
+}
+
+.pageContainer {
     display: flex;
     height: 100vh;
-    overflow: hidden;
-}
-
-.navbarContainer {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    margin-left: 1em;
-}
-
-.mainContent {
-    display: flex;
-    flex: 1;
 }

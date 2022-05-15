@@ -1,1 +1,1 @@
-export const pages = ["Home", "Experience", "Projects"];
+export const pages = ["About", "Experience", "Projects"];

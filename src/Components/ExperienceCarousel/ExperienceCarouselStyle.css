@@ -1,0 +1,46 @@
+.carouselContainer {
+    display: flex;
+    flex: 1;
+    gap: 5em;
+}
+
+.carouselPositionTitlesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.experienceButton {
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.experienceButtonActive {
+    background-color: #2C394B;
+}
+
+.experienceButton:hover {
+    cursor: pointer;
+    background-color: #2C394B;
+}
+
+.carouselPositionDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1em;
+}
+
+.positionTitleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.positionTitle {
+    font-size: 1.2em;
+}
+
+.positionDescriptionList {
+    font-size: 1.1em;
+}

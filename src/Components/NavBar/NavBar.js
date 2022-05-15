@@ -3,24 +3,22 @@ import React from "react";
 import './NavBarStyle.css';
 
 import { pages } from "../../utils/Constant";
-import NavBarDot from "../NavBarDot/NavBarDot";
+import NavBarItem from "../NavBarItem/NavBarItem";
 
 function NavBar(props) {
-    const { currentPage } = props;
-
     return (
         <div className="navBarContainer">
-            {
-                pages.map(function (item, index) {
-                    let active = false;
-                    if (item === currentPage) {
-                        active = true;
-                    }
-                    return (
-                        <NavBarDot key={index} itemName={item} active={active} />
-                    )
-                })
-            }
+            <a className="navBarTitleText" href="#home">Manpreet Singh</a>
+
+            <div className="navBarItemContainer">
+                {
+                    pages.map(function (item, index) {
+                        return (
+                            <NavBarItem key={index} itemName={item} />
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }

@@ -1,51 +1,36 @@
-.mainContentContainer {
+.landingPageContainer {
     display: flex;
-    flex: 1;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    font-size: 1.2em;
+    margin: 0em 10em;
 }
 
-.profilePicture {
-    width: 30em;
-    border-radius: 50%;
-    border-width: 0.5em;
-    border-color: white;
-    border-style: solid;
-    cursor: pointer;
+.landingPageIntroText {
+    font-size: 1.1em;
+    color: #FF4C29;
 }
 
-.linksContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30em;
-    height: 30em;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.6);
-    gap: 2em;
+.landingPageMainText {
+    font-size: 4em;
 }
 
-.mainText {
-    font-size: 3.5em;
-}
-
-.subText {
-    margin-top: -2.5em;
+.landingPageSubText {
     font-size: 2em;
+    color: rgba(255, 255, 255, 0.9);;
 }
 
-.socialIcon {
-    color: #334756;
-    font-size: 5em;
+.landingPageInfoText {
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
-.socialIcon:hover {
-    color: "#FF4C29";
-    cursor: pointer;
-}
-
-.returnIconContainer {
+.introContainer {
     display: flex;
-    margin-right: 4em;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.landingPageDescriptionText {
+    margin-top: 0.5em;
+    font-size: 1.1em;
 }

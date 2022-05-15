@@ -1,23 +1,30 @@
 .projectCardContainer {
     display: flex;
+    height: 20vh;
+    width: 20vh;
     flex-direction: column;
     background-color: #2C394B;
     border-radius: 1em;
     box-shadow: 2px 5px 12px -3px rgba(0, 0, 0, 0.57);
-    width: 50vh;
     justify-content: center;
-    padding: 2em;
-}
-
-.projectCardContainer:hover {
-    cursor: pointer;
+    padding: 1.5em;
 }
 
 .nameText {
-    font-size: 1.5em;
-    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
-.descriptionText {
-    text-align: center;
+.projectIcon {
+    font-size: 2em;
+}
+
+.projectIconContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.projectIconContainer:hover{
+    cursor: pointer;
+    color: #FF4C29;
 }

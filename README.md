@@ -1,4 +1,4 @@
 # Portfolio
-Portfolio website created using ReactJS
+Portfolio website
 
 [Live Link](https://mannysinghh11.github.io/)

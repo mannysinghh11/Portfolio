@@ -1,12 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
+import './index.scss';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import './index.css';
+/* GLOBAL VARIABLES */
 
-import ControllerPage from "../src/Pages/ControllerPage/ControllerPage";
+window.$primaryLanguage = 'en';
+window.$secondaryLanguage = 'pl';
+window.$primaryLanguageIconId = 'primary-lang-icon';
+window.$secondaryLanguageIconId = 'secondary-lang-icon';
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <ControllerPage />
-);
+ReactDOM.render(<App />, document.getElementById('root'));
+serviceWorker.register();

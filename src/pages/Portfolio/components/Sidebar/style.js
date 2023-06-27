@@ -5,15 +5,16 @@ export const style = {
     container: css({
         backgroundColor: secondaryColor,
         width: "250px",
-        height: "600px",
-        borderRadius: "15px",
+        height: "100vh",
 
         display: "flex",
         flexDirection: "column",
-        justifyContent: "flex-start",
+        justifyContent: "space-between",
         alignItems: "center",
+        gap: "20px",
 
-        filter: "drop-shadow(0px 0px 4px #5F7ADB)"
+        position: "sticky",
+        top: "0",
     }),
     headerContainer: css({
         display: "flex",
@@ -34,5 +35,14 @@ export const style = {
     }),
     headerTextContainer: css({
         fontSize: "20px",
+    }),
+    subHeaderTextContainer: css({
+        fontSize: "14px",
+    }),
+    socialContainer: css({
+        display: "flex",
+        flexDirection: "column",
+        gap: "15px",
+        marginBottom: "15px",
     })
 }
